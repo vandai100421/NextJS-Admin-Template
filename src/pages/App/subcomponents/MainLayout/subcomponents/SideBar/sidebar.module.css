@@ -1,0 +1,38 @@
+.section {
+  background-color: #fff;
+  padding-top: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.menu {
+  width: 248px;
+}
+
+.section :global(.ant-menu.ant-menu-inline-collapsed) {
+  width: 47px;
+}
+
+.collapsed {
+  width: 47px;
+}
+
+.collapse {
+  position: absolute;
+  background-color: #fff;
+  width: 14px;
+  height: 66px;
+  clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
+  top: 50%;
+  right: -14px;
+  transform: translateY(-50%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

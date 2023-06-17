@@ -1,0 +1,15 @@
+/* start fontsize */
+.text-sm {
+  font-size: 14px;
+}
+/* end fontsize */
+
+/* start font weight */
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+/* end font weight */

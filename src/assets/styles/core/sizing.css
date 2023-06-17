@@ -1,0 +1,11 @@
+/* start max width */
+.max-w-200 {
+  max-width: 200px;
+}
+/* end max width */
+
+/* start min width */
+.min-w-320 {
+  min-width: 320px;
+}
+/* end min width */
